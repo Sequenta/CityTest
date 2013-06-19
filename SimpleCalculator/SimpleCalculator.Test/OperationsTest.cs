@@ -37,5 +37,13 @@ namespace SimpleCalculator.Test
 
             Assert.Equal(1, result);
         }
+
+        [Fact]
+        public void NegativeOperation_ReturnsCorrectValue()
+        {
+            var result = calculator.Negative(2);
+
+            Assert.Equal(-1, result);
+        }
     }
 }
