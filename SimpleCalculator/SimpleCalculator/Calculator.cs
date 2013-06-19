@@ -21,5 +21,10 @@
         {
             return firstArgument / secondArgument;
         }
+
+        public int Negative(int argument)
+        {
+            return -argument;
+        }
     }
 }
