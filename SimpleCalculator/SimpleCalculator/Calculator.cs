@@ -16,5 +16,10 @@
         {
             return firstArgument * secondArgument;
         }
+
+        public int Divide(int firstArgument, int secondArgument)
+        {
+            return firstArgument / secondArgument;
+        }
     }
 }

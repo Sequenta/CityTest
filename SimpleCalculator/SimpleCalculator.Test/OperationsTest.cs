@@ -29,5 +29,13 @@ namespace SimpleCalculator.Test
 
             Assert.Equal(4, result);
         }
+
+        [Fact]
+        public void DivideOperation_ReturnsCorrectValue()
+        {
+            var result = calculator.Divide(2, 2);
+
+            Assert.Equal(1, result);
+        }
     }
 }
