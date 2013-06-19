@@ -6,5 +6,10 @@
         {
             return firstArgument + secondArgument;
         }
+
+        public int Substract(int firstArgument, int secondArgument)
+        {
+            return firstArgument - secondArgument;
+        }
     }
 }
