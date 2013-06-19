@@ -43,7 +43,7 @@ namespace SimpleCalculator.Test
         {
             var result = calculator.Negative(2);
 
-            Assert.Equal(-1, result);
+            Assert.Equal(-2, result);
         }
     }
 }
