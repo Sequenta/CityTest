@@ -13,5 +13,13 @@ namespace SimpleCalculator.Test
             
             Assert.Equal(4,result);
         }
+
+        [Fact]
+        public void MinusOperation_ReturnsCorrectValue()
+        {
+            var result = calculator.Substract(2, 2);
+
+            Assert.Equal(0, result);
+        }
     }
 }
