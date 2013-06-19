@@ -21,5 +21,13 @@ namespace SimpleCalculator.Test
 
             Assert.Equal(0, result);
         }
+
+        [Fact]
+        public void MultiplyOperation_ReturnsCorrectValue()
+        {
+            var result = calculator.Multiply(2, 2);
+
+            Assert.Equal(4, result);
+        }
     }
 }
